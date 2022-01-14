@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 public class HomeController {
 
-    @GetMapping("/")
+    @GetMapping("/test")
     public int homeController() {
         return HttpServletResponse.SC_ACCEPTED;
     }
